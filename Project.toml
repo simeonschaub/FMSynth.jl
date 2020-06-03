@@ -1,13 +1,7 @@
 name = "FMSynth"
-uuid = "c1857ba5-c52b-455d-96be-5049a118e143"
-authors = ["Simeon Schaub <simeondavidschaub99@gmail.com> and contributors"]
+uuid = "fbc5c0f3-52a8-4882-83c0-0d2ababde38b"
+authors = ["Simeon Schaub <simeondavidschaub99@gmail.com>"]
 version = "0.1.0"
 
-[compat]
-julia = "1"
-
-[extras]
-Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
-
-[targets]
-test = ["Test"]
+[deps]
+SampledSignals = "bd7594eb-a658-542f-9e75-4c4d8908c167"
